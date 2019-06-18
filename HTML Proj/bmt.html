@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMT SANDWICH SHOP</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="i101project.html">BMT SANDWICH SHOP</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="i101project.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="research.html">Research</a>
+                    </li>
+                    <li>
+                        <a href="dataviz.html">Visualization</a>
+                    </li>
+                    <li>
+                        <a href="solution.html">Solution</a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">Presentation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Introduction</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <hr class="content-divider">
+        <div class="content">
+            <img class="content-image img-responsive pull-right" src="images/home1.jpg">
+            <h2 class="content-heading">Problem Statement</h2>
+            <p class="lead">Nowadays, it is quite difficult for most businesses to be par with the changing trends without the use of technological infrastructure to aid them. In this scenario, a local sandwich restaurant is causing quite a stir in our town. Although, they are finding it hard to keep up with the rapid growth without the use of technology. To tackle this issue, we have come up with two solutions. Firstly, we would try to accommodate the use of a rewards program which will be used as a scheme to make the loyal customers realise that they will always be appreciated. The most important feature of the rewards program would be the user experience. The program should actually feel like a reward and not a consolation prize.<br>We have all used some kind of rewards program in the past. Critics may question how our program can compete with brands who have been part of the rewards game since its inception. Everyone loves getting a hot Starbucks coffee and having known that every coffee you buy counts towards a free beverage is a motivational tool in itself. However, Starbucks requires 125 stars, equivalent to $62.50, in order to get a free drink which usually costs between $5 to $10. Not the best value for your money now is it?<br>We plan to create a reward card that not only allows both customer and the restaurant to keep track of customer’s order history but also creates a simple rewarding system. We believe in simplicity, therefore, instead of confusing the customer, we will provide a free sandwich for every 10 sandwiches previously bought. As simplicity is also considered the glory of expression, the card will be designed in such a way that it stands out and is pleasing to the eye. This not only helps as an indirect marketing tool but also helps set a strong brand image. The appealing design of the card and simplicity of the rewards program will surely help the business succeed.</p>
+        </div>
+        <hr class="content-divider">
+        <div class="content">
+            <img class="content-image img-responsive pull-left" src="images/home2.jpg">
+            <h2 class="content-heading">Our Process</h2>
+            <p class="lead">So basically, the problem we faced with restaurant is the lack of infrastructure and lack of loyalty benefits for regulars. When we saw the problem or scenario, we instantly thought of creating a rewards card in order to both, keep the track of customers' purchase records and create the basic infrastructure at the same time. We believe this was one of the best way to solve the problem proposed in the simplest way possible. It may seem too simple, but the effectiveness of rewards program loses its purpose if it becomes too complicated to understand. The studies and articles we researched helped us a lot to support our idea.</p>
+        </div>
+        <hr class="content-divider">
+        <div class="content">
+            <img class="content-image img-responsive pull-right" src="images/home3.jpg">
+            <h2 class="content-heading">Scope</h2>
+            <p class="lead">When we were deciding which problem to work on, we wanted to make sure that we are familiar with the problem. Therefore, we chose Scenario 1, which is to solve a problem of new sandwich restaurant that needed some kind of infrastructure and it aso required managing loyal customers as well. Again, this problem seemed the most familiar with us and we did not want to hesitate to work on it right away. Also, as we mentioned above, we were very quick to decide how to approach the problem.</p>
+        </div>
+        <hr class="content-divider">
+        <div class="content">
+            <img class="content-image img-responsive pull-right" id="portrait" onClick="changeImage()" src="images/portrait1.jpg">
+            <h2 class="content-heading">Gene</h2>
+            <p class="lead">Gene Gittings<br>Click on the image for the next photo</p>
+        </div>
+        <hr class="content-divider">
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Gene Gittings</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+	function changeImage() {
+    var image = document.getElementById("portrait");
+	var x = Math.floor(Math.random()*3);
+    if (x == 0) {
+		image.src = "images/portrait1.jpg";
+	}  else {
+		image.src = "images/portrait2.jpg";
+	}
+    }
+	</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

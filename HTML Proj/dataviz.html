@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMT SANDWICH SHOP</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="bmt.html">BMT SANDWICH SHOP</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="i101project.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="research.html">Research</a>
+                    </li>
+                    <li>
+                        <a href="dataviz.html"  class="active">Visualization</a>
+                    </li>
+                    <li>
+                        <a href="solution.html">Solution</a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">Presentation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Visualization</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <hr class="content-divider">
+        <div class="content" id="about">
+            <img class="content-image img-responsive pull-right" src="images/pdf.png">
+            <h2 class="content-heading">Insights</h2>
+            <p class="lead">We conducted two types of interviews. 2 personal interviews and 1 mass questionnaire interview. After we had interviewed 8 random people, we found out that 62.5 percent do consider rewards programs, 25 percent were unsure and 12.5 said they were influenced by a rewards program. We also found references online that provided data to prove the worth of a solid rewards program.</p>
+        </div>
+        <hr class="content-divider">
+        <div class="content" id="services">
+            <h2 class="content-heading">Solution</h2>
+            <p class="lead">From the data, above, we concluded that a rewards program that offers a simple rewarding system was the way to go. Customers wanted to be appreciated but in a way that wouldn’t confuse them.From the data, above, we concluded that a rewards program that offers a simple rewarding system was the way to go. Customers wanted to be appreciated but in a way that wouldn’t confuse them.</p>
+        </div>
+        <hr class="content-divider">
+        <div class="content" id="contact">
+            <img class="content-image img-responsive pull-right" id="card" src="images/front.png" onMouseOver="changeImage()" onMouseOut="changeImage()">
+            <h2 class="content-heading">Design</h2>
+            <p class="lead">We have tried to make a card that which is not only practical, but easy to use as well. Its simple design provides marketing as well. Customers will be able to use the card to count the number of sandwiches left before a free one. They can also store a balance of unto 50$.<br>Hover over the image to see the back!</p>
+        </div>
+        <hr class="content-divider">
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Gene Gittings</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+	function changeImage() {
+      var image = document.getElementById("card");
+      if (image.src.match("back")) {
+        image.src = "images/front.png";
+      } else {
+        image.src = "images/back.png";
+      }
+    }
+	</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
